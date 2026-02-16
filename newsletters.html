@@ -18,10 +18,20 @@
   </head>
   <body>
     <!--
-      MAINTENANCE NOTES (newsletters.html)
-      1) Do not paste newsletter content directly in this file.
-      2) Edit posts.js only, then refresh this page.
-      3) This page auto-renders accordion entries and a mini TOC for each newsletter.
+      HOW TO ADD A NEWSLETTER (EDIT HERE)
+      1) Export newsletter as Markdown from Google Docs.
+      2) Ensure front matter exists at the top of the .md file:
+         ---
+         title: "Month YYYY Newsletter"
+         date: "YYYY-MM-01"
+         ---
+      3) Save the file in /newsletters/ as YYYY-MM.md (example: 2026-03.md).
+      4) Add the filename to /newsletters/index.json (one new line).
+      5) Deploy.
+
+      IMAGE RULE
+      - Put images in /assets/newsletters/
+      - Reference as: ![alt text](/assets/newsletters/your-image.png)
     -->
 
     <a class="skip-link" href="#newsletter-main">Skip to content</a>
@@ -60,7 +70,8 @@
       </div>
     </footer>
 
-    <script src="posts.js"></script>
+    <!-- Tiny markdown parser (static-hosting friendly) -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="newsletters.js"></script>
   </body>
 </html>
