@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>McMaster Climbing Club | Newsletters</title>
+    <meta
+      name="description"
+      content="Monthly newsletters from the McMaster University Climbing Club."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!--
+      MAINTENANCE NOTES (newsletters.html)
+      1) Do not paste newsletter content directly in this file.
+      2) Edit posts.js only, then refresh this page.
+      3) This page auto-renders accordion entries and a mini TOC for each newsletter.
+    -->
+
+    <a class="skip-link" href="#newsletter-main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container nav-shell">
+        <a class="brand" href="index.html" aria-label="Back to home">
+          <img src="assets/logo.svg" alt="McMaster Climbing Club logo" class="brand-logo" />
+          <span class="brand-text">McMaster Climbing Club</span>
+        </a>
+        <nav class="primary-nav" aria-label="Secondary">
+          <a href="index.html">Home</a>
+          <a href="#newsletter-main">Newsletters</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="newsletter-main">
+      <section class="page-header">
+        <div class="container">
+          <h1>Monthly Newsletters</h1>
+          <p>
+            Browse updates, events, and announcements. Expand an entry to read the full newsletter.
+          </p>
+        </div>
+      </section>
+
+      <section class="newsletter-list">
+        <div class="container" id="newsletterContainer" aria-live="polite"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> McMaster University Climbing Club.</p>
+      </div>
+    </footer>
+
+    <script src="posts.js"></script>
+    <script src="newsletters.js"></script>
+  </body>
+</html>

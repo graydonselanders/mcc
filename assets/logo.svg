@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-labelledby="title desc">
+  <title id="title">McMaster Climbing Club Logo Placeholder</title>
+  <desc id="desc">A maroon shield with mountain line art and MCC initials.</desc>
+  <rect width="220" height="220" rx="26" fill="#7A003C"/>
+  <path d="M35 155l36-45 28 35 35-52 51 62" fill="none" stroke="#FDBF57" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="110" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="38" fill="#FFFFFF" font-weight="700">MCC</text>
+</svg>
