@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Leadership photo placeholder">
+  <rect width="800" height="600" fill="#e6eaee"/>
+  <circle cx="400" cy="230" r="110" fill="#c2ccd4"/>
+  <path d="M190 530c35-118 116-177 210-177s174 59 210 177" fill="#c2ccd4"/>
+  <rect x="40" y="40" width="720" height="520" rx="16" fill="none" stroke="#7A003C" stroke-width="12"/>
+  <text x="400" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" fill="#495965">Replace with member photo</text>
+</svg>
